@@ -2,7 +2,8 @@
 title: Global ecology research group @ UF
 email: c.callaghan@ufl.edu
 description:
-baseurl: ""
+domain: coreytcallaghan.github.io
+baseurl: https://coreytcallaghan.github.io/website
 url: ""
 
 
