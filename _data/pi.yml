@@ -1,0 +1,16 @@
+- name: Corey T. Callaghan
+  photo: corey_headshot.jpg
+  info: Assistant Professor, Global Ecology, University
+  email: c.callaghan@ufl.edu
+  github: https://github.com/coreytcallaghan
+  researchgate: https://www.researchgate.net/profile/Corey-Callaghan
+  scholar: https://scholar.google.com/citations?user=Cd6lf6MAAAAJ&hl=en
+  cv: cv/CTC_curriculum_vitae.pdf
+  number_educ: 3
+  education1: (2019) Ph.D. Biological Sciences<br> UNSW Sydney, Sydney, New South Wales, Australia
+  education2: (2015) M.S. Environmental Science<br> Florida Atlantic University, Boca Raton, Florida
+  education3: (2013) B.S. Environmental Science, B.S. Mathematics & Statistics<br>
+    Canisius College, Buffalo, New York
+  education1short: (2019) Ph.D. UNSW Sydney
+  education2short: (2015) M.S. Florida Atlantic University
+  education3short: (2013) B.S. + B.S., Canisius College

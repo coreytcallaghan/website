@@ -1,0 +1,100 @@
+# Site settings
+title: Global ecology research group @ UF
+email: c.callaghan@ufl.edu
+description:
+baseurl: ""
+url: ""
+
+
+# Google analytics ID: Remove or use your own!
+google_analytics:
+google_analytics_4:
+google_tag_manager:
+
+# Footer info
+affiliation: >
+    Dr. Corey T. Callaghan<br/>
+    Assistant Professor<br/>
+    <a href="https://wec.ifas.ufl.edu/" target="_blank">Wildlife Ecology and Conservation</a><br/>
+    University of Florida
+
+location: >
+  University of Florida<br/>
+  <a href="https://goo.gl/maps/4FjBNGu8jxhyfBd36" target="_blank">Fort Lauderdale Research and Education Center</a><br/>
+  3205 College Avenue<br/>
+  Davie, FL 33314-7799
+
+contact: >
+    <a><i class="fa fa-envelope fa-1x"></i> c.callaghan@ufl.edu </a> <br/>
+    <a href="/aboutwebsite.html"><i class="fa fa-github fa-1x"></i> This site was adapted from others and is open source</a>
+
+# Pages shown in navbar
+nav_pages:
+  - name: about
+  - name: publications
+  - name: research
+  - name: extension
+  - name: opportunities
+  - name: lab philosophy
+# - name: team
+# - name: teaching
+
+include:
+  - .htaccess
+  - _pages
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+
+plugins: ['jekyll/scholar']
+
+scholar:
+
+  last_name: Callaghan
+  first_name: [Corey T.]
+
+  style: shb
+  locale: en
+
+  source: /cv/
+  bibliography: ref.bib
+  bibliography_template: bibtemplate
+  sort_by: year, month
+  order: descending
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+  bibliography_list_attributes:
+    reversed: "reversed"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - update_boostrap.sh
+  - switch_theme.sh
+  - tags
+  - Rakefile
