@@ -24,25 +24,11 @@ Here is a list of potential fellowship opportunities for graduate students that 
 - [Fulbright Fellowship](https://foreign.fulbrightonline.org/apply)
 - [Smithsonian Fellowship](https://www.si.edu/ofi)
 
-<p>&nbsp;</p>
+<!-- end of the list -->
 
 ### Undergraduate students
 
 I enjoy working with undergraduate students and often have many projects that are well-suited to undergrads, ranging from surveying biodiversity of urban greenspaces to quantitative analyses. There are a number of ways to find summer funding to employ undergraduates to do work in our research group.
-
-### Postdocs
-
-I am keen to work with postdocs to develop research proposals that can support one's own funding. See below for some examples of funding schemes we could discuss applying for. I encourage reaching out directly to me, and the earlier the better.
-
-Here is a list of potential fellowship opportunities for postdoctoral research fellows that I would be happy to support:
-
-- [Smith Fellowship](https://conbio.org/mini-sites/smith-fellows)
-- [NSF Postdoctoral Research Fellowship in Biology (PRFB)](https://beta.nsf.gov/funding/opportunities/postdoctoral-research-fellowships-biology-prfb)
-- [The Nature Conservancy NatureNet Science Fellow](https://www.nature.org/en-us/about-us/who-we-are/our-science/naturenet-science-fellowships/)
-- [NSF NEON Postdoctoral Fellow](https://www.neonscience.org/get-involved/work-opportunities/postdoctoral-fellows)
-- [Smithsonian Fellowship](https://www.si.edu/ofi)  
-
-<p>&nbsp;</p>
 
 
 ### Visitors
