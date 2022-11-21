@@ -11,9 +11,10 @@ We are always excited to discuss the potential of new students (undergraduate, M
 
 We welcome applicants from any race, ethnicity, origin, gender identity, caregiver and family commitments, sexual orientation, or disability status. We are a collaborative group and believe the best science is done in teams.
 
-Please get in touch with any questions or to discuss any potential opportunities.  
+Please get in touch with any questions or to discuss any potential opportunities.  </p>
 
 ### Students
+
 #### Graduate students
 
 I have the possibility to supervise graduate students as part of the [Department of Wildlife Ecology and Conservation](https://wec.ifas.ufl.edu/) or through the Interdisciplinary Ecology program run by the [School of Natural Resources and Environment](https://snre.ifas.ufl.edu/). The intake procedures are mostly similar, but please see [here](https://wec.ifas.ufl.edu/graduate-students/admissions/) for more information on a PhD in Wildlife Ecology and Conservation and [here](https://snre.ifas.ufl.edu/academics/degrees-offered/) for more information on the Interdisciplinary Ecology program. I only take on graduate students if I have the funding. Keep in mind we are located in [Davie, Florida](https://flrec.ifas.ufl.edu/), and not on the main campus of UF in Gainesville.
