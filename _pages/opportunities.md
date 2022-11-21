@@ -38,8 +38,6 @@ Here is a list of potential fellowship opportunities for graduate students that 
 - [Fulbright Fellowship](https://foreign.fulbrightonline.org/apply)
 - [Smithsonian Fellowship](https://www.si.edu/ofi)
 
-<!-- end of the list -->
-
 Here is a list of potential fellowship opportunities for postdoctoral research fellows that I would be happy to support:
 
 - [Smith Fellowship](https://conbio.org/mini-sites/smith-fellows)
@@ -47,5 +45,3 @@ Here is a list of potential fellowship opportunities for postdoctoral research f
 - [The Nature Conservancy NatureNet Science Fellow](https://www.nature.org/en-us/about-us/who-we-are/our-science/naturenet-science-fellowships/)
 - [NSF NEON Postdoctoral Fellow](https://www.neonscience.org/get-involved/work-opportunities/postdoctoral-fellows)
 - [Smithsonian Fellowship](https://www.si.edu/ofi)  
-
-<!-- end of the list -->
