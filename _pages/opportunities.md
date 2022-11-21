@@ -24,7 +24,7 @@ Here is a list of potential fellowship opportunities for graduate students that 
 - [Fulbright Fellowship](https://foreign.fulbrightonline.org/apply)
 - [Smithsonian Fellowship](https://www.si.edu/ofi)
 
-<!-- end of the list -->
+<p>&nbsp;</p>
 
 ### Undergraduate students
 
@@ -42,7 +42,7 @@ Here is a list of potential fellowship opportunities for postdoctoral research f
 - [NSF NEON Postdoctoral Fellow](https://www.neonscience.org/get-involved/work-opportunities/postdoctoral-fellows)
 - [Smithsonian Fellowship](https://www.si.edu/ofi)  
 
-<!-- end of the list -->
+<p>&nbsp;</p>
 
 
 ### Visitors
