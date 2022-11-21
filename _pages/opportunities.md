@@ -23,6 +23,8 @@ Here is a list of potential fellowship opportunities for graduate students that 
 - [Fulbright Fellowship](https://foreign.fulbrightonline.org/apply)
 - [Smithsonian Fellowship](https://www.si.edu/ofi)
 
+<a/>
+
 #### Undergraduate students
 I enjoy working with undergraduate students and often have many projects that are well-suited to undergrads, ranging from surveying biodiversity of urban greenspaces to quantitative analyses. There are a number of ways to find summer funding to employ undergraduates to do work in our research group.
 
@@ -36,6 +38,8 @@ Here is a list of potential fellowship opportunities for postdoctoral research f
 - [The Nature Conservancy NatureNet Science Fellow](https://www.nature.org/en-us/about-us/who-we-are/our-science/naturenet-science-fellowships/)
 - [NSF NEON Postdoctoral Fellow](https://www.neonscience.org/get-involved/work-opportunities/postdoctoral-fellows)
 - [Smithsonian Fellowship](https://www.si.edu/ofi)
+
+<a/>
 
 ### Visitors
 I am also always interested in chatting with individuals from the US or abroad about opportunities to visit the research group. For example, the [Fulbright fellowship](https://exchanges.state.gov/non-us/program/fulbright-visiting-scholar-program#:~:text=At%2Da%2DGlance,to%20a%20full%20academic%20year.).
