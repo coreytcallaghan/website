@@ -11,7 +11,13 @@ We are always excited to discuss the potential of new students (undergraduate, M
 
 We welcome applicants from any race, ethnicity, origin, gender identity, caregiver and family commitments, sexual orientation, or disability status. We are a collaborative group and believe the best science is done in teams.
 
-Please get in touch with any questions or to discuss any potential opportunities.  </p>
+Please get in touch with any questions or to discuss any potential opportunities.
+
+
+
+
+
+
 
 ### Students
 
