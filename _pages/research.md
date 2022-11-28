@@ -63,11 +63,15 @@ iframe {
   <!-- float: none; -->
 
 ## Overview
+I am broadly interested in global change ecology, with a focus on using big biodiversity data to understand ecological and biological patterns and processes in space and time ranging from local to global spatial scales. My work tends to focus on urban ecology, asking fundamental questions such as how species traits influence a species’ ability to persist in urban ecosystems as well as applied questions such as how to better preserve biodiversity in urban greenspaces. While I am partial to birds, my research cuts across different taxa including birds, amphibians, butterflies, and multi-taxa compilations.
 
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
  <h4>Urban ecology</h4>
+I study urban ecology.
+
+
 </div>
 </div>
 </div>
@@ -78,6 +82,7 @@ iframe {
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
 <h4>Citizen science</h4>
+Citizen science is important.
 
 </div>
 </div>
