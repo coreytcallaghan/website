@@ -13,7 +13,7 @@ We welcome applicants from any race, ethnicity, origin, gender identity, caregiv
 
 Please get in touch with any questions or to discuss any potential opportunities.
 
-![Gator pic](/images/gator_on_wall.png)
+![Gator pic](/images/otherpic/gator_on_wall.png)
 
 #### Graduate students
 
