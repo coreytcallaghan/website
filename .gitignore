@@ -18,3 +18,4 @@ cv/*.bbl
 cv/*.bcf
 cv/*.blg
 cv/*.run.xml
+stuff_to_ignore/
