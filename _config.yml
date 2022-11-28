@@ -79,7 +79,7 @@ scholar:
   bibliography_template: bibtemplate
   sort_by: year, month
   order: descending
-  bibliography_template: "{{ reference | replace_first: 'Callaghan, C. T.', '<b>Callaghan, C. T.</b>' }}"
+  #bibliography_template: "{{ reference | replace_first: 'Callaghan, C. T.', '<b>Callaghan, C. T.</b>' }}"
 
   replace_strings: true
   join_strings: true
