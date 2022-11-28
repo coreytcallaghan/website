@@ -51,7 +51,7 @@ img{
 iframe {
   margin:0;
   padding:0;
-  width: 175px;
+  width: 210px;
   display: inline;
   vertical-align: middle;
 }
