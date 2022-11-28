@@ -6,3 +6,5 @@ permalink: /lab philosophy/
 ---
 
 ## COMING SOON!
+
+![Gator pic](images/Florida Gator painting.png)
