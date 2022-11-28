@@ -1,10 +1,10 @@
 ---
 title: "Lab philosophy"
-layout: default
+layout: homelay
 sitemap: false
 permalink: /lab philosophy/
 ---
 
-## COMING SOON!
+## Our lab's philosophy
 
-![Gator pic](images/Florida Gator painting.png)
+![Gator pic](images/gator_on_wall.png)
