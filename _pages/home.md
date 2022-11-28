@@ -11,3 +11,5 @@ Welcome to the Global ecology research group at the [University of Florida](http
 We are located at the [Fort Lauderdale Research and Education Center](https://flrec.ifas.ufl.edu/) in Davie, Florida.
 
 ![UF Logo](images/logopic/IFAS-orangebox.png)
+
+![Gator pic](images/logopic/gator_on_wall.png)
