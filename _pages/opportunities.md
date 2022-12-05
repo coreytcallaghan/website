@@ -7,6 +7,8 @@ permalink: /opportunities/
 
 ### Join the Global ecology research group
 
+**We are currently recruiting Masters or PhD students, so if you are interested in joining our research group please reach out.**
+
 We are always excited to discuss the potential of new students (undergraduate, M.S., or PhD), postdoctoral research fellows, or research visitors.
 
 We welcome applicants from any race, ethnicity, origin, gender identity, caregiver and family commitments, sexual orientation, or disability status. We are a collaborative group and believe the best science is done in teams.
