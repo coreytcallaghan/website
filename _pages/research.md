@@ -44,7 +44,7 @@ img{
   text-align:center;
   display: table-cell;
   background: white;
-  border-radius: 0px;
+  /* No border radius */;
   height: auto;
   <!-- border: 1px solid black; -->
 }
