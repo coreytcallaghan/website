@@ -8,7 +8,7 @@ permalink: /team/
 
 ## Brittany M. Mason
 
-![Brittany Mason](images/teampic/brittany_mason_headshot.jpg)
+![Brittany Mason](/images/teampic/brittany_mason_headshot.jpg)
 
 **Data Management Analyst**
 
