@@ -1,4 +1,10 @@
-# Team Members
+---
+title: "Team"
+layout: default
+sitemap: false
+permalink: /team/
+---
+
 
 ## Brittany M. Mason
 
