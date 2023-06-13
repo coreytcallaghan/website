@@ -8,9 +8,9 @@ permalink: /team/
 
 ## Brittany M. Mason
 
-<div style="display: flex; align-items: center;">
-	<img src="images/teampic/brittany_mason_headshot.jpg" alt="Brittany Mason" width="100" height="100" style="border-radius: 50%; margin-right: 10px;">
-</div>
+{% raw %}<div style="display: flex; align-items: center;">
+    <img src="{{ '/images/teampic/brittany_mason_headshot.jpg' | relative_url }}" alt="Brittany Mason" width="100" height="100" style="border-radius: 50%; margin-right: 10px;">
+</div>{% endraw %}
 
 **Data Management Analyst**
 
