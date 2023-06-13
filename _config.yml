@@ -37,7 +37,7 @@ nav_pages:
   - name: extension
   - name: opportunities
   - name: lab philosophy
-# - name: team
+  - name: team
 # - name: teaching
 
 include:
