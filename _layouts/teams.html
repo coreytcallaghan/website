@@ -23,16 +23,23 @@ layout: default
         flex-direction: column;
       }
 
-      .team-member-links {
-        margin-top: 10px;
-        display: flex;
-        flex-wrap: wrap;
-      }
+	 .team-member-links {
+		margin-top: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center; /* Align items vertically in the center */
+	  }
 
-      .team-member-links a {
-        margin-right: 10px;
-        margin-bottom: 5px;
-      }
+	  .team-member-links a {
+		margin-right: 10px;
+		margin-bottom: 5px;
+	  }
+
+	  .team-member-links a:not(:last-child):after {
+		content: "|"; /* Add vertical bar after each hyperlink except the last one */
+		margin-left: 10px; /* Adjust the spacing as needed */
+		color: #333; /* Set the color of the vertical bar */
+	  }
     </style>
   </head>
   <body>
@@ -45,7 +52,7 @@ layout: default
           <h5>{{ team_member.position }}</h5>
           <p>{{ team_member.description }}</p>
           <div class="team-member-links">
-            <a href="{{ team_member.github }}">GitHub</a> |
+            <a href="{{ team_member.github }}">GitHub</a>|
             <a href="{{ team_member.inaturalist }}">iNaturalist</a>
           </div>
         </div>
