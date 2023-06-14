@@ -5,7 +5,6 @@ sitemap: false
 permalink: /team/
 ---
 
-# Our Team
 
 {% for team_member in site.data.team_members %}
 ## {{ team_member.name }}
