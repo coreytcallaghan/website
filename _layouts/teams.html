@@ -1,39 +1,40 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ page.title }}</title>
-    <style>
-      .team-member {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-      }
+---
+layout: default
+---
 
-      .team-member img {
-        width: 150px;
-        border-radius: 50%;
-        margin-right: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>{{ page.title }}</h1>
+{% include head.html %}
 
-    <div>
-      {% for team_member in site.data.team_members %}
-      <div class="team-member">
-        <img src="{{ team_member.image }}" alt="{{ team_member.name }}">
-        <div>
+<body>
+
+  {% include header.html %}
+
+  <div class="container-fluid">
+    <div class="row">
+      <main>
+        <h1>Our Team</h1>
+
+        {% for team_member in site.data.team_members %}
+        <div class="team-member">
           <h2>{{ team_member.name }}</h2>
-          <h4>{{ team_member.position }}</h4>
-          <p>{{ team_member.description }}</p>
-          <p>
-            <a href="{{ team_member.github }}">GitHub</a> |
-            <a href="{{ team_member.inaturalist }}">iNaturalist</a>
-          </p>
+          <div class="team-member-info">
+            <img src="{{ team_member.image }}" alt="{{ team_member.name }}">
+            <div>
+              <h3>{{ team_member.position }}</h3>
+              <p>{{ team_member.description }}</p>
+              <p>
+                <a href="{{ team_member.github }}">GitHub</a> |
+                <a href="{{ team_member.inaturalist }}">iNaturalist</a>
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      {% endfor %}
+        {% endfor %}
+      </main>
     </div>
-  </body>
+  </div>
+
+  {% include footer.html %}
+
+</body>
+
 </html>
