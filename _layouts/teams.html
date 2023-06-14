@@ -1,10 +1,11 @@
-----
+---
 layout: default
 ---
 
 <!DOCTYPE html>
 <html>
   <head>
+    <title>{{ page.title }}</title>
     <style>
       .team-member {
         display: flex;
@@ -17,26 +18,28 @@ layout: default
         border-radius: 50%;
         margin-right: 20px;
       }
-
-      .team-member-links {
+	  
+	   .team-member-links {
         margin-top: 10px;
       }
+	  
     </style>
   </head>
   <body>
+    <h1>{{ page.title }}</h1>
 
     <div>
       {% for team_member in site.data.team_members %}
       <div class="team-member">
         <img src="{{ team_member.image }}" alt="{{ team_member.name }}">
         <div>
-          <h3>{{ team_member.name }}</h3>
+          <h2>{{ team_member.name }}</h2>
           <h4>{{ team_member.position }}</h4>
           <p>{{ team_member.description }}</p>
-        </div>
-        <div class="team-member-links">
-          <a href="{{ team_member.github }}">GitHub</a>
-          <a href="{{ team_member.inaturalist }}">iNaturalist</a>
+          <p>
+            <a href="{{ team_member.github }}">GitHub</a> |
+            <a href="{{ team_member.inaturalist }}">iNaturalist</a>
+          </p>
         </div>
       </div>
       {% endfor %}
