@@ -38,7 +38,7 @@ layout: default
 	  .team-member-links a:not(:last-child):after {
 		content: "|"; /* Add vertical bar after each hyperlink except the last one */
 		margin-left: 10px; /* Adjust the spacing as needed */
-		color: #333; /* Set the color of the vertical bar */
+		color: #EE4B2B; /* Set the color of the vertical bar */
 	  }
     </style>
   </head>
@@ -52,7 +52,7 @@ layout: default
           <h5>{{ team_member.position }}</h5>
           <p>{{ team_member.description }}</p>
           <div class="team-member-links">
-            <a href="{{ team_member.github }}">GitHub</a>|
+            <a href="{{ team_member.github }}">GitHub</a>
             <a href="{{ team_member.inaturalist }}">iNaturalist</a>
           </div>
         </div>
