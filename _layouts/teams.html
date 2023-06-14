@@ -17,14 +17,21 @@ layout: default
         border-radius: 50%;
         margin-right: 20px;
       }
-      
+
       .team-member-info {
         display: flex;
         flex-direction: column;
       }
-      
+
       .team-member-links {
         margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .team-member-links a {
+        margin-right: 10px;
+        margin-bottom: 5px;
       }
     </style>
   </head>
@@ -37,10 +44,10 @@ layout: default
           <h3>{{ team_member.name }}</h3>
           <h5>{{ team_member.position }}</h5>
           <p>{{ team_member.description }}</p>
-        </div>
-        <div class="team-member-links">
-          <a href="{{ team_member.github }}">GitHub</a>
-          <a href="{{ team_member.inaturalist }}">iNaturalist</a>
+          <div class="team-member-links">
+            <a href="{{ team_member.github }}">GitHub</a>
+            <a href="{{ team_member.inaturalist }}">iNaturalist</a>
+          </div>
         </div>
       </div>
       {% endfor %}
