@@ -1,17 +1,27 @@
 ---
 title: "Team"
-layout: default
+layout: teams
 sitemap: false
 permalink: /team/
 ---
 
-## Brittany M. Mason
+# Our Team
 
-![Brittany Mason](/images/teampic/brittany_mason_headshot.jpg)
+{% for team_member in site.data.team_members %}
+## {{ team_member.name }}
 
-**Data Management Analyst**
-
-Brittany plays a pivotal role in organizing and collating diverse datasets, writing code, downloading, and performing analyses for a number of projects in the research group. Their responsibilities extend to figure design, general lab management, and collaborating with students, ensuring smooth project execution and facilitating scientific discoveries.
-
-[GitHub](https://github.com/brittanymmason) | [iNaturalist](https://www.inaturalist.org/people/brittanymmason)
+<div class="team-member">
+  <img src="{{ team_member.image }}" alt="{{ team_member.name }}">
+  <div>
+    <strong>{{ team_member.position }}</strong>
+    <p>
+      {{ team_member.description }}
+    </p>
+    <p>
+      <a href="{{ team_member.github }}">GitHub</a> |
+      <a href="{{ team_member.inaturalist }}">iNaturalist</a>
+    </p>
+  </div>
+</div>
+{% endfor %}
 
