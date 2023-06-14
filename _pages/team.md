@@ -6,6 +6,8 @@ permalink: /team/
 ---
 
 
+## Brittany M. Mason
+
 <div style="display: flex; align-items: center;">
   <img src="/images/teampic/brittany_mason_headshot.jpg" alt="Brittany Mason" style="width: 150px; border-radius: 50%; margin-right: 20px;">
   <div>
