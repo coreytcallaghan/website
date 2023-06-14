@@ -10,14 +10,15 @@ layout: default
         background-image: url('/images/otherpic/wildlife_collage_banner.png');
         background-repeat: no-repeat;
         background-size: cover;
-        height: 200px; /* Adjust the height of the banner as needed */
+        height: 250px; /* Adjust the height of the banner as needed */
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
+        color: #fff; /* Set the text color for the banner */
       }
 	  
-	  .team-member {
+      .team-member {
         display: flex;
         align-items: center;
         margin-bottom: 20px;
@@ -34,28 +35,27 @@ layout: default
         flex-direction: column;
       }
 
-	 .team-member-links {
-		margin-top: 10px;
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center; /* Align items vertically in the center */
-	  }
+      .team-member-links {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center; /* Align items vertically in the center */
+      }
 
-	  .team-member-links a {
-		margin-right: 10px;
-		margin-bottom: 5px;
-	  }
+      .team-member-links a {
+        margin-right: 10px;
+        margin-bottom: 5px;
+      }
 
-	  .team-member-links a:not(:last-child):after {
-		content: "|"; /* Add vertical bar after each hyperlink except the last one */
-		margin-left: 10px; /* Adjust the spacing as needed */
-		color: #EE4B2B; /* Set the color of the vertical bar */
-	  }
+      .team-member-links a:not(:last-child):after {
+        content: "|"; /* Add vertical bar after each hyperlink except the last one */
+        margin-left: 10px; /* Adjust the spacing as needed */
+        color: #EE4B2B; /* Set the color of the vertical bar */
+      }
     </style>
   </head>
   <body>
-	<div class="banner">
-    </div>
+    <div class="banner"></div>
     
     <div>
       {% for team_member in site.data.team_members %}
