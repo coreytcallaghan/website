@@ -5,7 +5,6 @@ layout: default
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.title }}</title>
     <style>
       .team-member {
         display: flex;
@@ -33,8 +32,8 @@ layout: default
       <div class="team-member">
         <img src="{{ team_member.image }}" alt="{{ team_member.name }}">
         <div>
-          <h2>{{ team_member.name }}</h2>
-          <h4>{{ team_member.position }}</h4>
+          <h3>{{ team_member.name }}</h3>
+          <h5>{{ team_member.position }}</h5>
           <p>{{ team_member.description }}</p>
           <p>
             <a href="{{ team_member.github }}">GitHub</a> |
