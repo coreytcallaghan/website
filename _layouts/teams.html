@@ -15,7 +15,13 @@ layout: default
         justify-content: center;
         text-align: center;
       }
-	  
+
+      .team-members-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
       .team-member {
         display: flex;
         align-items: center;
@@ -37,7 +43,7 @@ layout: default
         margin-top: 10px;
         display: flex;
         flex-wrap: wrap;
-        align-items: center; /* Align items vertically in the center */
+        align-items: center;
       }
 
       .team-member-links a {
@@ -46,16 +52,21 @@ layout: default
       }
 
       .team-member-links a:not(:last-child):after {
-        content: "|"; /* Add vertical bar after each hyperlink except the last one */
-        margin-left: 10px; /* Adjust the spacing as needed */
-        color: #EE4B2B; /* Set the color of the vertical bar */
+        content: "|";
+        margin-left: 10px;
+        color: #EE4B2B;
+      }
+
+      /* Alternate team members' alignment */
+      .team-member:nth-child(even) {
+        flex-direction: row-reverse;
       }
     </style>
   </head>
   <body>
     <div class="banner"></div>
-    
-    <div>
+
+    <div class="team-members-container">
       {% for team_member in site.data.team_members %}
       <div class="team-member">
         <img src="{{ team_member.image }}" alt="{{ team_member.name }}">
