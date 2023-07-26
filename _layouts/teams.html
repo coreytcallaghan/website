@@ -1,75 +1,119 @@
----
-layout: default
----
-
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <style>
-      .banner {
-        background-image: url('/images/otherpic/wildlife_collage_banner.png');
-        background-repeat: no-repeat;
-        height: 100px; /* Adjust the height of the banner as needed */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-      }
-	  
-      .team-member {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-      }
+        .banner {
+            background-image: url('/images/otherpic/wildlife_collage_banner.png');
+            background-repeat: no-repeat;
+            height: 100px; /* Adjust the height of the banner as needed */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
 
-      .team-member img {
-        width: 150px;
-        border-radius: 50%;
-        margin-right: 20px;
-      }
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
 
-      .team-member-info {
-        display: flex;
-        flex-direction: column;
-      }
+        .team-member img {
+            width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
 
-      .team-member-links {
-        margin-top: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center; /* Align items vertically in the center */
-      }
+        .team-member-info {
+            display: flex;
+            flex-direction: column;
+        }
 
-      .team-member-links a {
-        margin-right: 10px;
-        margin-bottom: 5px;
-      }
+        .team-member-links {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center; /* Align items vertically in the center */
+        }
 
-      .team-member-links a:not(:last-child):after {
-        content: "|"; /* Add vertical bar after each hyperlink except the last one */
-        margin-left: 10px; /* Adjust the spacing as needed */
-        color: #EE4B2B; /* Set the color of the vertical bar */
-      }
+        .team-member-links a {
+            margin-right: 10px;
+            margin-bottom: 5px;
+        }
+
+        .team-member-links a:not(:last-child):after {
+            content: "|"; /* Add vertical bar after each hyperlink except the last one */
+            margin-left: 10px; /* Adjust the spacing as needed */
+            color: #EE4B2B; /* Set the color of the vertical bar */
+        }
+
+        /* Style for Alumni section */
+        .alumni {
+            margin-top: 40px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+        .alumni .alumni-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .alumni .alumni-member img {
+            width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .alumni .alumni-member-info {
+            display: flex;
+            flex-direction: column;
+        }
     </style>
-  </head>
-  <body>
-    <div class="banner"></div>
-    
-    <div>
-      {% for team_member in site.data.team_members %}
-      <div class="team-member">
+</head>
+<body>
+<div class="banner"></div>
+
+<div>
+    <!-- Current Team Members -->
+    {% for team_member in site.data.team_members %}
+    <div class="team-member">
         <img src="{{ team_member.image }}" alt="{{ team_member.name }}">
         <div class="team-member-info">
-          <h3>{{ team_member.name }}</h3>
-          <h5>{{ team_member.position }}</h5>
-          <p>{{ team_member.description }}</p>
-          <div class="team-member-links">
-            <a href="{{ team_member.github }}">GitHub</a>
-            <a href="{{ team_member.inaturalist }}">iNaturalist</a>
-          </div>
+            <h3>{{ team_member.name }}</h3>
+            <h5>{{ team_member.position }}</h5>
+            <p>{{ team_member.description }}</p>
+            <div class="team-member-links">
+                <a href="{{ team_member.github }}">GitHub</a>
+                <a href="{{ team_member.inaturalist }}">iNaturalist</a>
+            </div>
         </div>
-      </div>
-      {% endfor %}
     </div>
-  </body>
+    {% endfor %}
+
+    <!-- Alumni Section -->
+    <div class="alumni">
+        <h2>Alumni</h2>
+        <div class="Maureen Thompson">
+            <img src="images/teampic/maureen_thompson_headshot.jpg" alt="Maureen Thompson">
+            <div class="alumni-member-info">
+                <h3>Maureen Thompson</h3>
+                <p>Maureen did her PhD at the University of New South Wales in Sydney Australia, studying frog ecology using FrogID, as well as the motivations of citizen science participants.</p>
+            </div>
+        </div>
+
+        <!-- Add more alumni members using the same structure -->
+        <!-- Example:
+        <div class="alumni-member">
+            <img src="path_to_alumni_photo.jpg" alt="Alumni Name">
+            <div class="alumni-member-info">
+                <h3>Alumni Name</h3>
+                <p>Short description of the alumni.</p>
+            </div>
+        </div>
+        -->
+    </div>
+</div>
+</body>
 </html>
