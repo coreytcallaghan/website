@@ -1,3 +1,4 @@
+team_members:
 - name: Brittany M. Mason
   position: Data Management Analyst
   description: Brittany plays a pivotal role in organizing and collating diverse datasets, writing code, downloading, and performing analyses for a number of projects in the research group. Their responsibilities extend to figure design, general lab management, and collaborating with students, ensuring smooth project execution and facilitating scientific discoveries.
@@ -23,5 +24,13 @@
   position: Master's Student
   description: Sam is an incoming Master's Student in the School of Natural Resources and Environment beginning Fall 2023. She will be working on understanding and quantifying how, and why, people engage with nature through citizen science using the iNaturalist project as a case study.
   image: /images/teampic/samantha_lowe_headshot.jpg
-  github: 
+  github:
+  inaturalist:
+
+alumni_members:
+- name: Maureen Thompson
+  position: Former PhD student
+  description: Maureen did her PhD at the University of New South Wales studying frog ecology using citizen science data from FrogID, as well as motivations of citizen science participants.
+  image: /images/teampic/maureen_thompson_headshot.jpg
+  github: https://github.com/Ochotona-princeps
   inaturalist: 
