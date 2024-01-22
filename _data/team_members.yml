@@ -1,6 +1,6 @@
 - name: Brittany M. Mason
   position: Data Management Analyst
-  description: Brittany plays a pivotal role in organizing and collating diverse datasets, writing code, downloading, and performing analyses for a number of projects in the research group. Their responsibilities extend to figure design, general lab management, and collaborating with students, ensuring smooth project execution and facilitating scientific discoveries.
+  description: Brittany plays a pivotal role in organizing and collating diverse datasets, writing code, downloading, and performing analyses for a number of projects in the research group. Her responsibilities extend to figure design, general lab management, and collaborating with students, ensuring smooth project execution and facilitating scientific discoveries.
   image: /images/teampic/brittany_mason_headshot.jpg
   github: https://github.com/brittanymmason
   inaturalist: https://www.inaturalist.org/people/brittanymmason
@@ -14,14 +14,14 @@
 
 - name: Jackson Barratt Heitmann
   position: PhD Student
-  description: Jackson is an incoming PhD student in the Department of Wildlife Ecology and Conservation. He recently graduates from College of Charleston, South Carolina, with his Master's degree where he studied ephemeral wetlands and their value for birds. For his PhD, he will be continuing to study wetlands, using a combination of data analysis and fieldwork, to understand the value and importance of various types of wetlands, ranging from natural ephemeral wetlands to highly anthropogenic constructed wetlands.
+  description: Jackson is a PhD student in the Department of Wildlife Ecology and Conservation. He received his Masters from College of Charleston, South Carolina, where he studied ephemeral wetlands and their value for birds. For his PhD, he is continuing to study wetlands, using a combination of data analysis and fieldwork, to understand the value and importance of various types of wetlands, ranging from natural ephemeral wetlands to highly anthropogenic constructed wetlands.
   image: /images/teampic/jackson_barratt_heitmann_headshot.jpg
   github: https://github.com/jacksonbarrattheitmann
   inaturalist: https://www.inaturalist.org/people/jb1634
 
 - name: Samantha Lowe
   position: Master's Student
-  description: Sam is an incoming Master's Student in the School of Natural Resources and Environment beginning Fall 2023. She will be working on understanding and quantifying how, and why, people engage with nature through citizen science using the iNaturalist project as a case study.
+  description: Sam is a Master's Student in the School of Natural Resources and Environment. She is working on understanding and quantifying how, and why, people engage with nature through citizen science using the iNaturalist project as a case study. She also is assessing the complementarity of citizen science data such as eBird and iNaturalist with state agency data.
   image: /images/teampic/samantha_lowe_headshot.jpg
-  github: 
-  inaturalist: 
+  github: https://github.com/SamanthaKLowe
+  inaturalist: https://www.inaturalist.org/people/sam_k_lowe
