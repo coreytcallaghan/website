@@ -61,6 +61,12 @@ layout: default
       .team-member:nth-child(even) {
         flex-direction: row-reverse;
       }
+	  
+	  .section-separator {
+		width: 80%;
+		margin: 40px auto; /* Adjust spacing and width as needed */
+		border: 1px solid #CCCCCC; /* Customizable color */
+	  }
     </style>
   </head>
   <body>
@@ -82,6 +88,9 @@ layout: default
       </div>
       {% endfor %}
     </div>
+	
+	<!-- Separator -->
+	<hr class="section-separator" />
 	
 	<!-- Alumni Members Section -->
     <div class="alumni-members-container">
