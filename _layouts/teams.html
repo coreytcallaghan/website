@@ -16,11 +16,11 @@ layout: default
         text-align: center;
       }
 
-      .team-members-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
+      .team-members-container .team-member img, .alumni-members-container .alumni-member img {
+		width: 150px; /* This ensures the image width is set explicitly */
+		border-radius: 50%; /* Maintains the circular shape */
+		margin-right: 20px; /* Keeps spacing consistent */
+	  }
 
       .team-member {
         display: flex;
