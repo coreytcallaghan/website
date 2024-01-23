@@ -1,10 +1,8 @@
-- name: Example Alumni Name
-  photo: rock.jpg
-  duration: In the lab 2015 - 2018, now at X
-  info: Fine researcher
-  email: exampleemail@gmail.com
-  number_educ: 1
-  education1: Example education here
-  education2:
-  education3:
-  education4:
+- name: Amélie Tatin
+  position: Previous research intern
+  description: Amélie previously worked as a research assistant in the conservation group at the iDiv research institute in Leipzig, on the biogeography of urban greenspaces using iNaturalist data. Amélie is working as a data analyst trainee in the bird and species conservation group at NABU e.V in Berlin. Her work mainly aims to identify trends in bird citizen science data, but she is also helping with various other conservation projects. 
+  image: /images/teampic/amelie_tatin_headshot.jpg
+  github:
+  inaturalist: 
+
+

@@ -24,3 +24,18 @@ permalink: /team/
 </div>
 {% endfor %}
 
+{% comment %}Alumni Members{% endcomment %}
+{% for alumni_member in site.data.alumni_members %}
+## {{ alumni_member.name }}
+
+<div class="alumni-member">
+  <img src="{{ alumni_member.image }}" alt="{{ alumni_member.name }}">
+  <div>
+    <strong>{{ alumni_member.position }}</strong>
+    <p>
+      {{ alumni_member.description }}
+    </p>
+  </div>
+</div>
+{% endfor %}
+
