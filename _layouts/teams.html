@@ -82,5 +82,21 @@ layout: default
       </div>
       {% endfor %}
     </div>
+	
+	<!-- Alumni Members Section -->
+    <div class="alumni-members-container">
+      <h2>Alumni</h2>
+      {% for alumni_member in site.data.alumni_members %}
+      <div class="alumni-member">
+        <img src="{{ alumni_member.image }}" alt="{{ alumni_member.name }}">
+        <div class="alumni-member-info">
+          <h3>{{ alumni_member.name }}</h3>
+          <h5>{{ alumni_member.position }}</h5>
+          <p>{{ alumni_member.description }}</p>
+          <!-- Omitting GitHub and iNaturalist links for alumni members -->
+        </div>
+      </div>
+      {% endfor %}
+    </div>
   </body>
 </html>
