@@ -1,17 +1,23 @@
 - name: Nataly Miguez
-   position: Undergraduate Research Assistant
-   description: Nataly is a recent graduate of UF earning a bachelors in geography. She worked with our research group from April 2023-December 2023 and she mapped and analyzed urban greenspaces in Broward County, and their value for biodiversity and for people. Her work identifed tradeoffs and synergies between urban greenspace utility for biodiversity and for anthropogenic use. 
+  position: Undergraduate Research Assistant
+  description: Nataly is a recent graduate of UF earning a bachelors in geography. She worked with our research group from April 2023-December 2023 and she mapped and analyzed urban greenspaces in Broward County, and their value for biodiversity and for people. Her work identifed tradeoffs and synergies between urban greenspace utility for biodiversity and for anthropogenic use. 
   image: /images/teampic/nataly_miguez_headshot.jpg
+  github: 
+  inaturalist: 
   
 - name: Maureen Thompson
-   position: PhD Student, UNSW Sydney
-   description: Maureen was a PhD student at UNSW Sydney, where she did her PhD in biological sciences, with a focus on using citizen science data to understand the motivations of participants of FrogID and how these data can be used to advance ecological understanding of frogs in Australia. She graduated in late 2023 and now leads the Beaver Works Oregon Program in Central Oregon.
+  position: PhD Student, UNSW Sydney
+  description: Maureen was a PhD student at UNSW Sydney, where she did her PhD in biological sciences, with a focus on using citizen science data to understand the motivations of participants of FrogID and how these data can be used to advance ecological understanding of frogs in Australia. She graduated in late 2023 and now leads the Beaver Works Oregon Program in Central Oregon.
   image: /images/teampic/maureen_thompson_headshot.jpg
+  github: 
+  inaturalist: 
   
 - name: Amélie Tatin
   position: Research intern
   description: Amélie previously worked as a research assistant in the conservation group at the iDiv research institute in Leipzig, on the biogeography of urban greenspaces using iNaturalist data. Amélie is working as a data analyst trainee in the bird and species conservation group at NABU e.V in Berlin. Her work mainly aims to identify trends in bird citizen science data, but she is also helping with various other conservation projects. 
   image: /images/teampic/amelie_tatin_headshot.jpg
+  github: 
+  inaturalist: 
   
 
 
