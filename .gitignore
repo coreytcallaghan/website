@@ -19,3 +19,4 @@ cv/*.bcf
 cv/*.blg
 cv/*.run.xml
 stuff_to_ignore/
+_config_dev.yml
