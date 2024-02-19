@@ -2,7 +2,7 @@
 title: "Lab philosophy"
 layout: default
 sitemap: false
-permalink: /lab philosophy/
+permalink: /lab-philosophy/
 ---
 
 ### Our Lab's Philosophy
