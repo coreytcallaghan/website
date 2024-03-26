@@ -25,3 +25,17 @@
   image: /images/teampic/muzi_sibiya_headshot.jpg
   github: https://github.com/Muzi04
   inaturalist: https://www.inaturalist.org/people/7718912
+  
+- name: Levi Hoskins
+  position: Incoming PhD student
+  description: Levi is an incoming PhD student in the School of Natural Resources and Environment and will be working on a PhD in interdisciplinary ecology. They received their bachelor's from Tulane University where they studied habitat fragmentation in the Chocó Rainforest of Ecuador. During their PhD, they will study how urban greenspaces are used by humans and migratory animals. By integrating citizen science data and fieldwork, they will study how these areas influence migration patterns and species abundance. Levi is co-supervised with Dr. Chang Zhao from the Department of Agronomy.
+  image: /images/teampic/levi_hoskins_headshot.jpg
+  github: https://github.com/levihoskins
+  inaturalist: https://www.inaturalist.org/people/levihoskins
+
+- name: Lee Gallivan
+  position: Undergraduate Research Assistant
+  description: Lee is an undergraduate student in the Department of Wildlife Ecology and Conservation. As a research intern, her focus is on the intersection of invasion ecology and behavioral ecology. Currently, her work revolves around leveraging citizen science images sourced from platforms like iNaturalist to understand and analyze behavioral adaptations of invasive species. 
+  image: /images/teampic/lee_gallivan_headshot.jpg
+  github: https://github.com/lxgallivan
+  inaturalist: https://www.inaturalist.org/people/lxgallivan
