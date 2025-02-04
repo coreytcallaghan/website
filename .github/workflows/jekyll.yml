@@ -37,8 +37,8 @@ jobs:
           JEKYLL_ENV: production
       - name: Debug - Check `_site` directory contents
         run: ls -la _site || echo "_site directory is missing!"
-      - name: Upload Pages artifact  # ✅ Required for GitHub Pages
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2  # ✅ Updated to v2
         with:
           path: _site
 
