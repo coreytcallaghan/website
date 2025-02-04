@@ -37,8 +37,8 @@ jobs:
           JEKYLL_ENV: production
       - name: Debug - Check `_site` directory contents
         run: ls -la _site || echo "_site directory is missing!"
-      - name: Upload Pages artifact  # ✅ Must use upload-pages-artifact, not upload-artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload Pages artifact  # ✅ USE upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v2
         with:
           path: _site
 
@@ -51,4 +51,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2  # ✅ No need to download manually
+        uses: actions/deploy-pages@v2
