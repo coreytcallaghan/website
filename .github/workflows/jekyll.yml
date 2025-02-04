@@ -21,23 +21,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
-        uses: ruby/setup-ruby@0a29871fe2b0200a17a4497bae54fe5df0d973aa # v1.115.3
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0'
           bundler-cache: true
           cache-version: 0
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5  # ✅ Upgraded to v5
+        uses: actions/configure-pages@v5
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Verify _site directory exists
+        run: ls -la _site  # ✅ Debugging step: Ensure _site is created
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: github-pages
-          path: _site  # ✅ Fixed missing path
+          name: github-pages  # ✅ Matches the name in `download-artifact`
+          path: _site  # ✅ Uploads correct directory
           retention-days: 1
 
   deploy:
@@ -50,8 +52,8 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: github-pages
-          path: _site
+          name: github-pages  # ✅ Matches the uploaded artifact
+          path: _site  # ✅ Extracts to correct location
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2  # ✅ Upgraded to v2
+        uses: actions/deploy-pages@v2
