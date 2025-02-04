@@ -20,29 +20,35 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0'
           bundler-cache: true
           cache-version: 0
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Debug: Check working directory contents
+
+      - name: Debug - Check working directory contents
         run: ls -la
+
       - name: Build with Jekyll (Verbose)
         run: bundle exec jekyll build --trace --verbose --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - name: Debug: Check `_site` directory contents
+
+      - name: Debug - Check `_site` directory contents
         run: ls -la _site || echo "_site directory is missing!"
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
           path: _site
-          if-no-files-found: error  # ✅ Fails the job if `_site` is empty
+          if-no-files-found: error
           retention-days: 1
 
   deploy:
@@ -58,7 +64,7 @@ jobs:
           name: github-pages
           path: _site
 
-      - name: Debug: Check `_site` after download
+      - name: Debug - Check `_site` after download
         run: ls -la _site || echo "_site directory is missing in deploy step!"
 
       - name: Deploy to GitHub Pages
