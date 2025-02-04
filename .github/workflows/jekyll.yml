@@ -29,8 +29,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Debug - Check Installed Actions  # ✅ New debug step
-        run: ls -R /home/runner/work/_actions/
       - name: Debug - Check working directory contents
         run: ls -la
       - name: Build with Jekyll (Verbose)
@@ -39,13 +37,10 @@ jobs:
           JEKYLL_ENV: production
       - name: Debug - Check `_site` directory contents
         run: ls -la _site || echo "_site directory is missing!"
-      - name: Upload Pages artifact  # ✅ Switched to upload-artifact@v4
-        uses: actions/upload-artifact@v4
+      - name: Upload Pages artifact  # ✅ Must use upload-pages-artifact, not upload-artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages
           path: _site
-          if-no-files-found: error
-          retention-days: 1
 
   deploy:
     environment:
@@ -54,11 +49,6 @@ jobs:
     runs-on: ubuntu-22.04
     needs: build
     steps:
-      - name: Download artifact  # ✅ Ensures the artifact is correctly pulled
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: _site
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v2  # ✅ No need to download manually
