@@ -33,12 +33,26 @@
   github: https://github.com/levihoskins
   inaturalist: https://www.inaturalist.org/people/levihoskins
   
+- name: Mario Zuliani
+  position: Postdoctoral Associate
+  description: Mario is a postdoc in our group working across many different quantitative ecology projects. He is a recent PhD graduate from York University, where he focused on assessing resource selection and facilitative interactions of California desert animal species.  Currently, he is working on modelling the abundance of submerged aquatic vegetation as well as wading bird abundance and behavior at Lake Okeechobee. His responsibilities in the group involve conducting quantitative analysis, writing associated scientific papers, and providing support for graduate students and team members.
+  image: /images/teampic/mario_zuliani_headshot.jpg
+  github: https://github.com/MarioZuliani
+  inaturalist: https://www.inaturalist.org/people/mario1996
+  
 - name: Marina Marquis
-  position: Masters student
+  position: Master's student
   description: Marina is a Master’s Student in the Department of Wildlife Ecology and Conservation. She discovered her passion for wildlife research at the University of Florida, where she also studied wildlife ecology and conservation and is finishing her Bachelor's degree. Marina’s main research interests include the influence of anthropogenic change on wildlife behavior and community structure. Marina is using iNaturalist data to explore the effects of urbanization on pollinators and pollination.
   image: /images/teampic/marina_marquis_headshot.jpg
   github: https://github.com/MarinaMarquis
   inaturalist: https://www.inaturalist.org/people/marinamarquis
+  
+- name: Anna Swigris
+  position: PhD student
+  description: Anna is an interdisciplinary ecology PhD student in the School of Natural Resources and Environment. She received her Bachelor's from the Department of Wildlife Ecology and Conservation at UF in 2019 and has since spent her professional career focused on a variety of aspects of aquatic ecology. During her PhD, she will be studying the restoration ecology of freshwater systems, using principles of trophic, community, and quantitative ecology to better understand and assess restoration targets, strategies, and outcomes.
+  image: /images/teampic/anna_swigris_headshot.jpg
+  github: https://github.com/annaswigris
+  inaturalist: https://www.inaturalist.org/people/annasawgrass 
 
 - name: Lee Gallivan
   position: Undergraduate Research Assistant
@@ -46,6 +60,13 @@
   image: /images/teampic/lee_gallivan_headshot.jpg
   github: https://github.com/lxgallivan
   inaturalist: https://www.inaturalist.org/people/lxgallivan
+  
+- name: Analise Fussell
+  position: Research Technician
+  description: Analise is a research technician in our group. She oversees fieldwork operations across multiple projects, including waterbird monitoring on Lake Okeechobee, and manages fieldwork logistics. She also contributes to data analysis, extension programming, and outreach efforts.
+  image: /images/teampic/analise_fussell_headshot.jpg
+  github: https://github.com/AnaliseF
+  inaturalist: https://www.inaturalist.org/people/analisefussell
   
 - name: Thomas Lilkendey
   position: Undergraduate Research Assistant
