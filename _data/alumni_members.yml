@@ -1,3 +1,17 @@
+- name: Samantha Lowe
+  position: Master's Student
+  description: Sam was a Master's student in SNRE who worked on the motivations of iNaturalist users as well as the potential use of the data in natural resource management. She was with the research group from August 2023 - August 2025. You can check out her thesis defense [here](https://youtu.be/wnWlR-JVfAc).
+  image: /images/teampic/samantha_lowe_headshot.jpg
+  github: 
+  inaturalist: 
+ 
+ - name: Lee Gallivan
+  position: Undergraduate Research Assistant
+  description: Lee was an undergraduate student from the Department of Wildlife Ecology and Conservation who worked in our research group on a project comparing different datasets relevant for monitoring herps in Florida. She was a UF/IFAS undergraduate research intern and worked with us from May 2024 to July 2025.
+  image: /images/teampic/lee_gallivan_headshot.jpg
+  github: 
+  inaturalist: 
+
 - name: Muzi D. Sibiya
   position: Postdoctoral Associate
   description: Muzi was a postdoc in our group who worked on modelling Wild Turkey relative abundance and distribution using diverse datasets.

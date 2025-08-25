@@ -12,13 +12,6 @@
   github: https://github.com/jacksonbarrattheitmann
   inaturalist: https://www.inaturalist.org/people/jb1634
 
-- name: Samantha Lowe
-  position: Master's Student
-  description: Sam is a Master's Student in the School of Natural Resources and Environment. She is working on understanding and quantifying how, and why, people engage with nature through citizen science using the iNaturalist project as a case study. She also is assessing the complementarity of citizen science data such as eBird and iNaturalist with state agency data.
-  image: /images/teampic/samantha_lowe_headshot.jpg
-  github: https://github.com/SamanthaKLowe
-  inaturalist: https://www.inaturalist.org/people/sam_k_lowe
- 
 - name: Levi Hoskins
   position: PhD student
   description: Levi is a PhD student in the School of Natural Resources and Environment and will be working on a PhD in interdisciplinary ecology. They received their bachelor's from Tulane University where they studied habitat fragmentation in the Chocó Rainforest of Ecuador. During their PhD, they will study how urban greenspaces are used by humans and migratory animals. By integrating citizen science data and fieldwork, they will study how these areas influence migration patterns and species abundance. Levi is co-supervised with Dr. Chang Zhao from the Department of Agronomy.
@@ -46,13 +39,6 @@
   image: /images/teampic/anna_swigris_headshot.jpg
   github: https://github.com/annaswigris
   inaturalist: https://www.inaturalist.org/people/annasawgrass 
-
-- name: Lee Gallivan
-  position: Undergraduate Research Assistant
-  description: Lee is an undergraduate student in the Department of Wildlife Ecology and Conservation. As a research intern, her focus is on the intersection of invasion ecology and behavioral ecology. Currently, her work revolves around leveraging comparing different datasets relevant for monitoring herps in Florida. 
-  image: /images/teampic/lee_gallivan_headshot.jpg
-  github: https://github.com/lxgallivan
-  inaturalist: https://www.inaturalist.org/people/lxgallivan
   
 - name: Jiayi Song
   position: PhD student
