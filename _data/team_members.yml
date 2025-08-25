@@ -38,7 +38,14 @@
   description: Anna is an interdisciplinary ecology PhD student in the School of Natural Resources and Environment. She received her Bachelor's from the Department of Wildlife Ecology and Conservation at UF in 2019 and has since spent her professional career focused on a variety of aspects of aquatic ecology. During her PhD, she will be studying the restoration ecology of freshwater systems, using principles of trophic, community, and quantitative ecology to better understand and assess restoration targets, strategies, and outcomes.
   image: /images/teampic/anna_swigris_headshot.jpg
   github: https://github.com/annaswigris
-  inaturalist: https://www.inaturalist.org/people/annasawgrass 
+  inaturalist: https://www.inaturalist.org/people/annasawgrass
+
+- name: Kelly Bearhs
+  position: Undergraduate Research Assistant
+  description: Kelly is a UF/IFAS undergraduate research intern in our research group. They are a current student in the Department of Wildlife Ecology and Conservation. She is researching the role of citizen science in a marine setting.
+  image: /images/teampic/kelly_bearhs_headshot.jpg
+  github: https://github.com/KellyBearhs
+  inaturalist: https://www.inaturalist.org/people/kellyobear  
   
 - name: Jiayi Song
   position: PhD student
@@ -48,7 +55,7 @@
   inaturalist: https://www.inaturalist.org/people/jiayi_song   
   
 - name: Analise Fussell
-  position: Research Technician
+  position: Master's student
   description: Analise is a research technician in our group. She oversees fieldwork operations across multiple projects, including waterbird monitoring on Lake Okeechobee, and manages fieldwork logistics. She also contributes to data analysis, extension programming, and outreach efforts.
   image: /images/teampic/analise_fussell_headshot.jpg
   github: https://github.com/AnaliseF
