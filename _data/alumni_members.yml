@@ -11,6 +11,13 @@
   image: /images/teampic/lee_gallivan_headshot.jpg
   github: 
   inaturalist: 
+  
+- name: Thomas Lilkendey
+  position: Undergraduate Research Assistant
+  description: Thomas was an undergraduate student in the Department of Wildlife Ecology and Conservation. He researched pollinator ecology in urban greenspaces using iNaturalist data [check the paper out here](https://link.springer.com/article/10.1007/s11252-025-01854-9). He is currently a Master's student at UF in the Department of Wildlife Ecology and Conservation with Ellen Robertson.
+  image: /images/teampic/thomas_lilkendey_headshot.jpg
+  github: 
+  inaturalist: 
 
 - name: Muzi D. Sibiya
   position: Postdoctoral Associate
