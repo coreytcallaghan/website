@@ -1,3 +1,10 @@
+- name: Marina Marquis
+  position: Master's student
+  description: Marina received a Master's from the Department of Wildlife Ecology and Conservation. Marine combined iNaturalist data to understand macroecological phenology changes in pollinators with fieldwork to quantify local plant-pollinator interactions in urban South Florida. She is currently a PhD student at UMASS Boston.
+  image: /images/teampic/marina_marquis_headshot.jpg
+  github:
+  inaturalist: 
+  
 - name: Jackson Barratt Heitmann
   position: PhD Student
   description: Jackson graduated in August 2026 with a PhD from the Department of Wildlife Ecology and Conservation. He studied wetland biodiversity, using a combination of data analysis and fieldwork, to understand the value and importance of various types of wetlands, ranging from natural ephemeral wetlands to highly anthropogenic constructed wetlands. 
