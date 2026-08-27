@@ -5,12 +5,40 @@
   github: https://github.com/brittanymmason
   inaturalist: https://www.inaturalist.org/people/brittanymmason
 
+- name: Analise Fussell
+  position: Master's student
+  description: Analise is a Master's student in our group. Her research focuses on wading birds in South Florida, from a fieldwork and citizen science data perspective. She oversees fieldwork operations across multiple projects, including waterbird monitoring on Lake Okeechobee, and manages fieldwork logistics. She also contributes to data analysis, extension programming, and outreach efforts.
+  image: /images/teampic/analise_fussell_headshot.jpg
+  github: https://github.com/AnaliseF
+  inaturalist: https://www.inaturalist.org/people/analisefussell
+  
 - name: Levi Hoskins
   position: PhD student
   description: Levi is a PhD student in the School of Natural Resources and Environment and will be working on a PhD in interdisciplinary ecology. They received their bachelor's from Tulane University where they studied habitat fragmentation in the Chocó Rainforest of Ecuador. During their PhD, they will study how urban greenspaces are used by humans and migratory animals. By integrating citizen science data and fieldwork, they will study how these areas influence migration patterns and species abundance. Levi is co-supervised with Dr. Chang Zhao from the Department of Agronomy.
   image: /images/teampic/levi_hoskins_headshot.jpg
   github: https://github.com/levihoskins
   inaturalist: https://www.inaturalist.org/people/levihoskins
+  
+- name: Grace Essery
+  position: Undergraduate Research Assistant
+  description: Grace is a UF/IFAS undergraduate research intern in our research group.  She is working on quantifying and understanding how citizen science data are used in research and policy.
+  image: /images/teampic/grace_essery_headshot.jpg
+  github: 
+  inaturalist: https://www.inaturalist.org/people/grace_essery
+
+- name: Tori Bakley
+  position: PhD student
+  description: Tori is a PhD student in the School of Natural Resources and Environment and will be working on a PhD in interdisciplinary ecology. Her interests in conservation and biodiversity bloomed while studying biology and anthropology at Florida State University, and continued to grow as she conducted field work in Indonesia, California, and Florida. For her PhD, she will be monitoring wading birds on Lake Okeechobee with the hopes of utilizing biodiversity monitoring methods to create conservation action.
+  image: /images/teampic/tori_bakley_headshot.jpg
+  github: https://github.com/tdbakley
+  inaturalist: https://www.inaturalist.org/people/tdbakley
+  
+- name: "Oniel Álvarez Abreu"
+  position: Master's student
+  description: Oniel is a WEC Master's student funded by the Fulbright program. Oniel’s graduate research will focus on macroecology and conservation of coastal mollusks. Oniel is from the Dominican Republic and earned his bachelors degree from the Universidad Autónoma de Santo Domingo(UASD). He worked and volunteered at the Instituto de Investigaciones Botánicas y Zoológicas under Prof. Rafael M. Moscoso (IIBZ) at UASD on mollusks and clitellate annelids. 
+  image: /images/teampic/oniel_alvarez_headshot.jpg
+  github: https://github.com/onielalvarez
+  inaturalist: https://www.inaturalist.org/people/onielalvarezabreu  
   
 - name: Mario Zuliani
   position: Postdoctoral Associate
@@ -39,24 +67,6 @@
   image: /images/teampic/mitch_walters_headshot.jpg
   github: https://github.com/mjw246
   inaturalist: https://www.inaturalist.org/people/mjw246
-  
-- name: Analise Fussell
-  position: Master's student
-  description: Analise is a Master's student in our group. Her research focuses on wading birds in South Florida, from a fieldwork and citizen science data perspective. She oversees fieldwork operations across multiple projects, including waterbird monitoring on Lake Okeechobee, and manages fieldwork logistics. She also contributes to data analysis, extension programming, and outreach efforts.
-  image: /images/teampic/analise_fussell_headshot.jpg
-  github: https://github.com/AnaliseF
-  inaturalist: https://www.inaturalist.org/people/analisefussell
-  
-- name: "Oniel Álvarez Abreu"
-  position: Master's student
-  description: Oniel is a WEC Master's student funded by the Fulbright program. Oniel’s graduate research will focus on macroecology and conservation of coastal mollusks. Oniel is from the Dominican Republic and earned his bachelors degree from the Universidad Autónoma de Santo Domingo(UASD). He worked and volunteered at the Instituto de Investigaciones Botánicas y Zoológicas under Prof. Rafael M. Moscoso (IIBZ) at UASD on mollusks and clitellate annelids. 
-  image: /images/teampic/oniel_alvarez_headshot.jpg
-  github: https://github.com/onielalvarez
-  inaturalist: https://www.inaturalist.org/people/onielalvarezabreu  
+    
+
  
-- name: Grace Essery
-  position: Undergraduate Research Assistant
-  description: Grace is a UF/IFAS undergraduate research intern in our research group.  She is working on quantifying and understanding how citizen science data are used in research and policy.
-  image: /images/teampic/grace_essery_headshot.jpg
-  github: 
-  inaturalist: https://www.inaturalist.org/people/grace_essery
